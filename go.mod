@@ -1,4 +1,4 @@
-module gitlab.xunlei.cn/huanghai1/mdrest
+module github.com/sa1utyeggs/mdrest
 
 go 1.17
 

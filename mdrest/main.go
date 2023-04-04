@@ -2,7 +2,7 @@ package main
 
 import (
 	"flag"
-	"gitlab.xunlei.cn/huanghai1/mdrest"
+	"github.com/sa1utyeggs/mdrest"
 	"log"
 )
 
