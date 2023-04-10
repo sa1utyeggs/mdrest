@@ -21,10 +21,9 @@ func main() {
 	if *basePath != "" {
 		cfg.BasePath = *basePath
 	}
-	//if *outType != "html" {
-	//	cfg.OutputType = *outType
-	//}
-	cfg.OutputType = "html"
+	if *outType != "html" {
+		cfg.OutputType = *outType
+	}
 	cfg.ShowPageTitle = *showTitle
 	mdr := mdrest.New(cfg)
 	defer mdr.Close()
