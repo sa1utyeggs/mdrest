@@ -24,7 +24,7 @@ func main() {
 	//if *outType != "html" {
 	//	cfg.OutputType = *outType
 	//}
-	cfg.OutputType = "json"
+	cfg.OutputType = "html"
 	cfg.ShowPageTitle = *showTitle
 	mdr := mdrest.New(cfg)
 	defer mdr.Close()
